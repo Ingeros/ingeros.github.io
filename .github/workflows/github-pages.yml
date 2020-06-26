@@ -17,7 +17,7 @@ jobs:
       - name: Clone Repo
         uses: actions/checkout@v2
         with:
-          ref: develop
+          ref: master
       
       - name: Install ImageMagick
         run: sudo apt-get install imagemagick
