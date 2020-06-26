@@ -26,7 +26,10 @@ msg-foot:
 
         <div class="col-lg-6">
   		    <div class="embed-responsive embed-responsive-16by9">
-  		      <img class="img-fluid center-block" src="{{ site.url }}/assets/images/tablero-fermentadores.jpg"></img>
+            {% picture assets/images/tablero-fermentadores.jpg 
+              --alt Tablero Fermentadores
+              --img class="img-fluid center-block"
+              %}
   		    </div>
         </div><!-- col-lg-6 -->
      </div><!-- row -->
@@ -44,23 +47,38 @@ msg-foot:
        </ol>
        <div class="carousel-inner" role="listbox">
          <div class="item active">
-           <img class="img-fluid center-block" src="{{ site.url }}/assets/images/server-fermentadores-2.png">
+           {% picture assets/images/server-fermentadores-2.png
+              --alt Servidor Tablero Fermentadores
+              --img class="img-fluid center-block"
+              %}
          </div>
 
          <div class="item">
-           <img class="img-fluid center-block" src="{{ site.url }}/assets/images/server-fermentadores-3.png" alt="Contaminacion">
+          {% picture assets/images/server-fermentadores-3.png
+                        --alt Servidor Tablero Fermentadores
+                        --img class="img-fluid center-block"
+                        %}
          </div>
 
          <div class="item">
-           <img class="img-fluid center-block" src="{{ site.url }}/assets/images/server-fermentadores-4.png" alt="Industrias">
+          {% picture assets/images/server-fermentadores-4.png
+            --alt Servidor Tablero Fermentadores
+            --img class="img-fluid center-block"
+            %}
+          </div>
+
+         <div class="item">
+          {% picture assets/images/server-fermentadores-5.png
+              --alt Servidor Tablero Fermentadores
+              --img class="img-fluid center-block"
+            %}
          </div>
 
          <div class="item">
-           <img class="img-fluid center-block" src="{{ site.url }}/assets/images/server-fermentadores-5.png" alt="Grupo Witmos">
-         </div>
-
-         <div class="item">
-           <img class="img-fluid center-block" src="{{ site.url }}/assets/images/server-fermentadores-6.png" alt="Grupo Witmos">
+          {% picture assets/images/server-fermentadores-6.png
+            --alt Servidor Tablero Fermentadores
+            --img class="img-fluid center-block"
+          %}
          </div>
        </div>
 
