@@ -8,7 +8,7 @@ defaults:
 on:
   push:
     branches:
-      - master
+      - develop
 
 jobs:
   github-pages:
@@ -17,7 +17,7 @@ jobs:
       - name: Clone Repo
         uses: actions/checkout@v2
         with:
-          ref: master
+          ref: develop
       
       - name: Install ImageMagick
         run: sudo apt-get install imagemagick
@@ -64,7 +64,7 @@ jobs:
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.JEKYLL_PAT }}
-          branch: gh-pages
+          branch: master
           force: true
           directory: _site
 
