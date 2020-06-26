@@ -1,8 +1,14 @@
 - name: Home
   link: /
 
-- name: Blog
-  link: /blog
+- name: Servicios
+  link: /servicios/
 
-- name: Contact
-  link: /contact
+- name: Trabajos Realizados
+  link: '#portfolio'
+
+- name: Quienes Somos
+  link: '#quienessomos'
+
+- name: Contacto
+  link: '#contacto'

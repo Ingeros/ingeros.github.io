@@ -11,16 +11,23 @@ msg-foot:
 ---
 
 <!-- QUE HACEMOS -->
-<div class="blue">
-   <div class="container">
-      <div class="row text-center ">
-         <div class="col-lg-12">
-            <h4>¿QUÉ HACEMOS?</h4>
-            <p>Diseñamos y desarrollamos soluciones que soluciónan problemas reales.</p>
-         </div>
+<header id="header-viewport">
+  <section id="hi-iam" class="block bg-white">
+    <div class="container">
+      <div class="row align-items-center text-center p-3 mb-5 mt-5">
+        <div class="col-12 ml-auto">
+          <h1 id="name-header">
+            ¿QUÉ HACEMOS?
+          </h1>
+          <p>
+            Diseñamos y desarrollamos soluciones que soluciónan problemas reales.
+          </p>
+        </div>
       </div>
-   </div>
-</div>
+    </div>
+  </section>
+</header>
+
 <div class="container w">
    <div class="row text-center">
       <div class="col-lg-6">
@@ -182,7 +189,7 @@ msg-foot:
     <!-- Tablero control fermentadores -->
      <div class="col-sm-6 col-md-4 text-justify">
          <div class="thumbnail">
-           <img src="{{ site.url }}/assets/images/tablero-fermentadores-2.jpg" alt="Tablero control fermentadores">
+          {% include picture.html img="/assets/images/tablero-fermentadores-2.jpg" alt="Tablero control fermentadoress" %}
            <div class="caption">
             <h3>Tablero control fermentadores</h3>
             <p>
@@ -200,7 +207,7 @@ msg-foot:
       <!-- Cartel Led -->
        <div class="col-sm-6 col-md-4 text-justify">
            <div class="thumbnail">
-             <img src="{{ site.url }}/assets/images/cartelled_3.jpg" alt="Cartel led programable">
+            {% include picture.html img="/assets/images/cartelled_3.jpg" alt="Cartel led programable" %}
              <div class="caption">
               <h3>Cartel Led Programable</h3>
               <p>
@@ -239,7 +246,7 @@ msg-foot:
        <!-- Turnero electronico -->
            <div class="col-sm-6 col-md-4 text-justify">
                <div class="thumbnail">
-                 <img src="{{ site.url}}/assets/images/turnero-electronico-frente.jpg" alt="Turnero Electrónico">
+                {% include picture.html img="/assets/images/turnero-electronico-frente.jpg" alt="Turnero Electrónico" %}
                  <div class="caption">
                   <h3>Turnero Electrónico LED</h3>
                   <p>
@@ -266,7 +273,7 @@ msg-foot:
          <!-- PowerAlarm -->
         <div class="col-sm-6 col-md-4 text-justify">
             <div class="thumbnail">
-              <img src="{{ site.url }}/assets/images/app-alarma-corte-luz-configurar.jpg" alt="Avisador corte de luz">
+              {% include picture.html img="/assets/images/app-alarma-corte-luz-configurar.jpg" alt="Avisador corte de luz" %}
               <div class="caption">
                <h3>Alarma Corte de Luz Aplicación Móvil</h3>
                <p>
@@ -285,7 +292,7 @@ msg-foot:
 		    <!-- InnovaHome -->
 		     <div class="col-sm-6 col-md-4 text-justify">
 			<div class="thumbnail">
-			  <img src="/assets/images/banner-innovahome.png" alt="InnovaHome">
+        {% include picture.html img="/assets/images/banner-innovahome.png" alt="InnovaHome" %}
 			  <div class="caption">
 			    <h3>InnovaHome</h3>
 			    <p>InnovaHome es un proyecto de <strong>Internet de las cosas(IoT)</strong> aplicado al hogar, con el que buscamos convertir hogares convencionales en hogares inteligentes.
@@ -297,7 +304,7 @@ msg-foot:
             <!-- Witmos -->
 		     <div class="col-sm-6 col-md-4 text-justify">
 			<div class="thumbnail">
-			  <img src="/assets/images/banner_witmos.png" alt="Colector de fracciones">
+        {% include picture.html img="/assets/images/banner_witmos.png" alt="Witmos" %}
 			  <div class="caption">
 			   <h3>Witmos Plataforma IoT para Ciudades Inteligentes</h3>
 			   <p>
@@ -314,7 +321,7 @@ msg-foot:
 		      <!-- Colector -->
 		     <div class="col-sm-6 col-md-4 text-justify">
 			<div class="thumbnail">
-			  <img src="/assets/images/colector-cf2015.jpg" alt="Colector de fracciones">
+        {% include picture.html img="/assets/images/colector-cf2015.jpg" alt="Colector de fracciones" %}
 			  <div class="caption">
 			    <h3>Colector de fracciones</h3>
 			    <p>Construimos un <strong>colector de fracciones</strong>, el cual es una máquina
