@@ -5,6 +5,7 @@ _site
 Gemfile.lock
 node_modules/
 vendor/
+!_sass/vendor
 package-lock.json
 assets/images/*.webp
 assets/js/*
