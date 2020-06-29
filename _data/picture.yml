@@ -5,5 +5,8 @@ markup_presets:
     attributes: 
         img: class="lazyload"
   icon:
+    markup: data_auto
     formats: [webp, original]
-    widths: [30]
+    widths: [100]
+    attributes: 
+        img: 'class="lazyload" width="100px"'
