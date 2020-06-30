@@ -11,7 +11,7 @@
         <div class="navbar-nav">
             {% for item in site.data.navigation %}
             <a class="nav-item nav-link{% if page.permalink == item.link %} active{% endif %}"
-                href="{{ item.link | relative_url }}">{{ item.name }} {% if page.permalink == item.link %}<span
+                href="{{ item.link }}">{{ item.name }} {% if page.permalink == item.link %}<span
                     class="sr-only">(current)</span> {% endif %}</a>
             {% endfor %}
         </div>

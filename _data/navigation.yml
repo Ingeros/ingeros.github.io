@@ -5,10 +5,10 @@
   link: /servicios/
 
 - name: Trabajos Realizados
-  link: '#portfolio'
+  link: '/#portfolio'
 
 - name: Quienes Somos
-  link: '#quienessomos'
+  link: '/#quienessomos'
 
 - name: Contacto
   link: '#contacto'

@@ -12,92 +12,111 @@ msg-foot:
  msg: Diseñado y Desarrollado en Argentina.
 ---
 
-<div class="container w">
-    <!--
-      INTERFAZ
-    -->
-    <div class="row centered">
-        <br><br>
-        <div class="col-lg-6">
-           <h4>Tablero para controlar fermentadores</h4>
-           <p>El automatizador de fermentadores de cervezas es un sistema que permite lograr la repetibilidad en la fabricación de cerveza superando los inconvenientes que se encuentran a la hora de recrear estilos realizados previamente.</p>
-           <p>El automatizador de fermentadores permite realizar el proceso de fermentación de la cerveza sin la necesidad de supervisión de ningún operario, respetando los tiempos programados por el maestro cervecero, siendo esta una nueva herramienta a la hora de producir cerveza. </p>
-        </div><!-- col-lg-6 -->
+<header id="header-viewport">
+  <section id="hi-iam" class="block bg-white">
+    <div class="container">
+      <div class="row align-items-center text-center p-3 mb-5 mt-5">
+        <div class="col-md-6 ml-auto">
+          <h1 id="name-header">
+            Tablero para controlar fermentadores
+          </h1>
+          <p>El automatizador de fermentadores de cervezas es un sistema que permite lograr la repetibilidad en la fabricación de
+            cerveza superando los inconvenientes que se encuentran a la hora de recrear estilos realizados previamente.</p>
+          <p>El automatizador de fermentadores permite realizar el proceso de fermentación de la cerveza sin la necesidad de
+            supervisión de ningún operario, respetando los tiempos programados por el maestro cervecero, siendo esta una nueva
+            herramienta a la hora de producir cerveza. </p>
+        </div>
+        <div class="col-md-6">
+          {% picture assets/images/tablero-fermentadores.jpg
+            --alt Tablero control de fermentacion
+            --title Tablero control fermentadores Cerveceria
+            --img class="img-fluid"
+          %}
+        </div>
+      </div>
+    </div>
+  </section>
+</header>
 
-        <div class="col-lg-6">
-  		    <div class="embed-responsive embed-responsive-16by9">
-  		      <img class="img-responsive center-block" src="{{ site.url }}/img/tablero-fermentadores.jpg"></img>
-  		    </div>
-        </div><!-- col-lg-6 -->
-     </div><!-- row -->
+<div class="container bg-white">
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      {% picture assets/images/server-fermentadores-2.png
+        --alt Tablero control de fermentacion
+        --title Tablero control fermentadores Cerveceria
+        --img class="d-block w-100"
+      %}
+    </div>
+    <div class="carousel-item">
+      {% picture assets/images/server-fermentadores-3.png
+        --alt Tablero control de fermentacion
+        --title Tablero control fermentadores Cerveceria
+        --img class="d-block w-100"
+      %}
+    </div>
+    <div class="carousel-item">
+      {% picture assets/images/server-fermentadores-4.png
+        --alt Tablero control de fermentacion
+        --title Tablero control fermentadores Cerveceria
+        --img class="d-block w-100"
+      %}
+    </div>
+    <div class="carousel-item">
+      {% picture assets/images/server-fermentadores-5.png
+        --alt Tablero control de fermentacion
+        --title Tablero control fermentadores Cerveceria
+        --img class="d-block w-100"
+      %}
+    </div>
+    <div class="carousel-item">
+      {% picture assets/images/server-fermentadores-6.png
+        --alt Tablero control de fermentacion
+        --title Tablero control fermentadores Cerveceria
+        --img class="d-block w-100"
+      %}
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Anterior</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Siguiente</span>
+  </a>
+</div>
 
-      <br><br>
+</div><!-- Proceso -->
 
-     <div id="myCarousel" class="carousel slide" data-ride="carousel">
-
-       <ol class="carousel-indicators">
-         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-         <li data-target="#myCarousel" data-slide-to="1"></li>
-         <li data-target="#myCarousel" data-slide-to="2"></li>
-         <li data-target="#myCarousel" data-slide-to="3"></li>
-         <li data-target="#myCarousel" data-slide-to="4"></li>
-       </ol>
-       <div class="carousel-inner" role="listbox">
-         <div class="item active">
-           <img class="img-responsive center-block" src="{{ site.url }}/img/server-fermentadores-2.png">
-         </div>
-
-         <div class="item">
-           <img class="img-responsive center-block" src="{{ site.url }}/img/server-fermentadores-3.png" alt="Contaminacion">
-         </div>
-
-         <div class="item">
-           <img class="img-responsive center-block" src="{{ site.url }}/img/server-fermentadores-4.png" alt="Industrias">
-         </div>
-
-         <div class="item">
-           <img class="img-responsive center-block" src="{{ site.url }}/img/server-fermentadores-5.png" alt="Grupo Witmos">
-         </div>
-
-         <div class="item">
-           <img class="img-responsive center-block" src="{{ site.url }}/img/server-fermentadores-6.png" alt="Grupo Witmos">
-         </div>
-       </div>
-
-       <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-         <span class="fa fa-arrow-circle-left" aria-hidden="true"></span>
-         <span class="sr-only">Previous</span>
-       </a>
-       <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-         <span class="fa fa-arrow-circle-right" aria-hidden="true"></span>
-         <span class="sr-only">Next</span>
-       </a>
-     </div>
-
-      <br><br>
-
-     <!-- Contactar1 -->
+<!-- Contactar1 -->
   <div class="blue">
     <div class="container">
       <div class="row text-center">
-        <div class="col-lg-8 col-lg-offset-2 text-center">
+        <div class="col text-center">
           <h4><i class="fa fa-rocket"></i> ¿Te interesa nuestra propuesta?</h4>
-          <p><a href="#contacto" class="btn btn-default btn-block"><i class="fa fa-paper-plane-o" aria-hidden="true"></i> ¡Contacta con nosotros!</a></p>
+          <p><a href="#contacto" class="btn btn-light"><i class="fas fa-paper-plane"></i> ¡Contacta con nosotros!</a></p>
         </div><!-- col-lg-4 -->
       </div><!-- row -->
     </div>
-  </div><!-- Contactar1 -->
-   <!-- Proceso -->
-	<div class="container w">
+  </div>
+  <!-- Contactar1 -->
+
+  <div class="container bg-white pt-5">
 		<div class="row text-center">
 			<div class="col-lg-4">
-				<i class="fa fa-gear"></i>
+				<i class="fa fa-cog"></i>
 				<h4>Personalización</h4>
 				<p>Adaptamos la solución a su cervecería dependiendo de la cantidad de fermentadores con los que usted dispone.</p>
 			</div><!-- col-lg-4 -->
 
 			<div class="col-lg-4">
-				<i class="fa fa-usb"></i>
+				<i class="fab fa-usb"></i>
 				<h4>Tecnología</h4>
 				<p> Electrónica con calidad y resistencia de última generecación, que se ajusta a las situaciones más exigentes de la industria cervecera.</p>
 			</div><!-- col-lg-4 -->
@@ -109,8 +128,9 @@ msg-foot:
 			</div><!-- col-lg-4 -->
 		</div><!-- row -->
 
-	</div><!-- Proceso -->
-  <div class="container w">
+  </div><!-- Proceso -->
+
+  <div class="container bg-white pt-5">
     <div class="row text-center">
       <div class="col-lg-4">
         <i class="fa fa-bar-chart"></i>
@@ -132,8 +152,8 @@ msg-foot:
     </div><!-- row -->
   </div><!-- Proceso -->
 
-</div><!-- Proceso -->
-<div class="container w">
+
+<div class="container bg-white pt-5">
   <div class="row text-center">
     <div class="col-lg-4">
       <i class="fa fa-refresh "></i>
@@ -159,59 +179,75 @@ msg-foot:
   <div class="blue">
     <div class="container">
       <div class="row text-center">
-        <div class="col-lg-8 col-lg-offset-2 text-center">
+        <div class="col text-center">
           <h4><i class="fa fa-rocket"></i> ¿Quines confian en nosotros?</h4>
         </div><!-- col-lg-4 -->
       </div><!-- row -->
     </div>
   </div><!-- Clientes -->
   
-  <br><br>
 
-  <div class="row centered">
+  <div class="row text-center pt-5">
     <div class="col-lg-4">
       <a href="https://www.instagram.com/babacerveza/">
-          <img class="img-responsive img-circle" style="margin-left:auto; margin-right:auto;" src="{{ site.url }}/img/clientes-cervecerias/baba.jpg">
+        {% picture assets/images/clientes-cervecerias/baba.jpg
+          --alt Cerveza Artesanal BABA
+          --title Cerveceria Babalandia
+          --img class="img-fluid rounded-circle"
+        %}
       </a>
     </div><!-- col-lg-4 -->
     <div class="col-lg-4" >
         <a href="https://www.instagram.com/cervezahopfen/">
-          <img class="img-responsive img-circle" style="margin-left:auto; margin-right:auto;" src="{{ site.url }}/img/clientes-cervecerias/hopffen.jpeg">
+          {% picture assets/images/clientes-cervecerias/hopffen.jpeg
+            --alt Cerveza Hopfen
+            --title Cerveceria Hopfen
+            --img class="img-fluid rounded-circle"
+          %}
         </a>
       </div><!-- col-lg-4 -->
 
     <div class="col-lg-4">
         <a href="https://www.instagram.com/tuzancerveza/">
-          <img class="img-responsive img-circle" style="margin-left:auto; margin-right:auto;" src="{{ site.url }}/img/clientes-cervecerias/tuzan.jpg">
+          {% picture assets/images/clientes-cervecerias/tuzan.jpg
+            --alt Cerveza Tuzan
+            --title Cerveceria Tuzan
+            --img class="img-fluid rounded-circle"
+          %}
         </a>
     </div><!-- col-lg-4 -->
   </div><!-- row -->
 
-  <br><br>
 
-  <div class="row centered">
+  <div class="row text-center py-5">
     <div class="col-lg-4">
         <a href="https://www.instagram.com/fohlencerveceriaartesanal/">
-        <img class="img-responsive img-circle" style="margin-left:auto; margin-right:auto;" src="{{ site.url }}/img/clientes-cervecerias/fohlen.png">
-        </a>>
-    </div><!-- col-lg-4 -->
-
-    <div class="col-lg-4">
+          {% picture assets/images/clientes-cervecerias/fohlen.png
+            --alt Cerveza Fohlen
+            --title Cerveceria Fohlen
+            --img class="img-fluid rounded-circle"
+          %}
+        </a>
     </div><!-- col-lg-4 -->
 
     <div class="col-lg-4">
       <a href="https://www.instagram.com/cerveza_hekas/">
-        <img class="img-responsive img-circle" style="margin-left:auto; margin-right:auto;" src="{{ site.url }}/img/clientes-cervecerias/hekas.jpg">
+        {% picture assets/images/clientes-cervecerias/hekas.jpg
+          --alt Cerveza Hekas
+          --title Cerveceria Hekas
+          --img class="img-fluid rounded-circle"
+        %}
       </a>
     </div>
 
     <div class="col-lg-4">
       <a href="https://www.instagram.com/copperbier/">
-        <img class="img-responsive img-circle" style="margin-left:auto; margin-right:auto;" src="{{ site.url }}/img/clientes-cervecerias/copper.png">
+        {% picture assets/images/clientes-cervecerias/copper.png
+          --alt Cerveza Copper
+          --title Cerveceria Copper
+          --img class="img-fluid rounded-circle"
+        %}
       </a>
     </div>
   </div><!-- row -->
-
-
-    <br><br>
 </div><!-- container -->
