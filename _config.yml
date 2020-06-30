@@ -1,7 +1,7 @@
 title: Ingeros # Your site's title
 tagline: Innovación tecnológica # A short description, used as part of the title
 description: Desarrollo de Software, Electrónica y aplicaciones móviles
-url: test-ariel.github.io # The full URL to your site.
+#url: test-ariel.github.io # The full URL to your site.
 author: arielsperduti
 
 logo: # URL to a site-wide logo, 
@@ -41,6 +41,7 @@ sass:
 plugins:
   - jekyll-purgecss
   - jekyll-seo-tag
+  - jekyll-redirect-from
 
 css_dir: "assets/css" # defaults to "css"
 

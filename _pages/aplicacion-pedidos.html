@@ -12,43 +12,43 @@ msg-foot:
  msg: Diseñado y Desarrollado en Argentina.
 ---
 
-<div class="container w">
-  <!--
-      Primer parrafo
-    -->
-  <div class="row text-center">
-    <h1>APLICACIÓN DE PEDIDOS</h1>
-    <br>
-    <div>
-      <img class="img-fluid center-block" style="max-height: 400px;"
-        src="{{ site.url }}/assets/images/pedidos/app-pedidos-3phones.png"></img>
+<!-- QUE HACEMOS -->
+<header id="header-viewport">
+  <section id="hi-iam" class="block bg-white">
+    <div class="container">
+      <div class="row align-items-center text-center p-3 mb-5 mt-5">
+        <div class="col-12 ml-auto">
+          <h1 id="name-header">
+            APLICACIÓN DE PEDIDOS
+          </h1>
+          {% picture assets/images/pedidos/app-pedidos-3phones.png
+              --alt Aplicacion de pedidos
+              --title Aplicacion de pedidos
+              --img class="img-fluid center-block" style="max-height: 400px;"
+              
+            %}
+          <p>Hacemos que tus clientes lleven a tu negocio en su bolsillo!.</p>
+          <p>Con nuestro sistema de pedidos tus clientes podrán realizar pedidos online en tu negocio. Vos recibis los
+            pedidos confirmándolos en tiempo real. </p>
+          <p>Mejora la interacción que tenés con las personas que fonfían en vos y genera un nuevo canal de venta para
+            estar más cerca de tus clientes.</p>
+        </div>
+      </div>
     </div>
-  </div>
-  <div class="row centered">
-    <br>
-    <div>
-      <p>Hacemos que tus clientes lleven a tu negocio en su bolsillo!.</p>
-      <p>Con nuestro sistema de pedidos tus clientes podrán realizar pedidos online en tu negocio. Vos recibis los
-        pedidos confirmándolos en tiempo real. </p>
-      <p>Mejora la interacción que tenés con las personas que fonfían en vos y genera un nuevo canal de venta para
-        estar más cerca de tus clientes.</p>
-    </div>
-  </div>
+  </section>
+</header>
+<!-- QUE HACEMOS -->
 
 
 
   <!--
     Descripcion APP
   -->
-  <hr style="margin: 40px;">
-
-  <div class="text-center">
-    <h1> TU COMERCIO, TU APP</h1>
-  </div>
-  <div class="row text-center">
-    <div class="col-md-12">
-      <div class="col-md-7 text-left">
-        <div>
+  <section id="tu-comercio-tu-app" class="bg-grey block mt-5">
+    <div class="container">
+      <div class="row justify-content-center text-center">
+        <div class="col col-lg-7 col-md-12 text-left">
+          <h2 class="brand">TU COMERCIO, TU APP</h2>
           <p>Brindale a tus clientes la posibilidad de navegar a través de tu catálogo y pedir tus productos.</p>
           <p>Aplicaciones <b>RESPONSIVE</b> que responde y se adapta a cualquier tipo de pantallas.</p>
           <p>Tus datos en la nube para asegurar la disponibilidad y accesibilidad en todo momento</p>
@@ -58,22 +58,23 @@ msg-foot:
             directamente desde el navegador </p>
           <p>La aplicación funciona en cualquier sistema operativo y cualquier teléfono ya sea Android u iOs</p>
         </div>
-      </div>
-      <div class="col-md-5">
-        <img class="img-fluid center-block" style="max-height: 500px;"
-          src="{{ site.url }}/assets/images/pedidos/phone.png"></img>
+        <div class="cold-lg-5 col-md-12">
+          {% picture assets/images/pedidos/phone.png
+                        --alt Aplicacion de pedidos
+                        --title Aplicacion de pedidos
+                        --img class="img-fluid center-block" style="max-height: 500px;"
+                    %}
+        </div>
       </div>
     </div>
-    <br>
-  </div><!-- row -->
+  </section>
+
 
   <!--
     POR que usar la APP
   -->
-
-  <hr>
-
-  <div class="container w">
+<section id="porque-usar-app" class="bg-white block mt-5">
+  <div class="container">
     <div class="row text-center">
       <div class="col-md-4 ">
         <h1>Por que utilizar nuestro sistema?</h4>
@@ -101,46 +102,60 @@ msg-foot:
         <p> No pagas comisiones abusivas por cada venta. Los clientes son de tu negocio.</p>
       </div>
     </div>
-  </div><!-- Proceso -->
+  </div>
+</section>
+<!-- POR que usar la APP -->
 
-  <hr>
-
-  <div class="container w">
-
+<!--
+    Caracteristicas
+  -->
+<section id="caracteristicas" class="bg-white block mt-5">
+  <div class="container">
     <div class="row text-center">
+      <div class="col-12">
       <h1> TU COMERCIO, TU APP</h1>
+      </div>
       <div class="col-md-4">
-        <i class="fa fa-cloud-upload" style="font-size: 50px;"></i>
+        <i class="fas fa-cloud-upload-alt" style="font-size: 50px;"></i>
         <h3>PUBLICAR PRODUCTOS</h2>
           <p> Carga los productos que deseas vender de forma online e inmediatamente se verán reflejado en tu sitio</p>
-      </div><!-- /.col-lg-4 -->
+      </div>
       <div class="col-md-4">
         <i class="fa fa-shopping-basket" style="font-size: 50px;"></i>
         <h3>VENDER</h2>
           <p>> Tus clientes podrán navegar en tu sitio eligiendo los productos que quieren comprar. Cuando finalizan la
             compra seleccionan el método de envío</p>
-      </div><!-- /.col-lg-4 -->
+      </div>
       <div class="col-md-4">
         <i class="fa fa-truck" style="font-size: 50px;"></i>
         <h3>ADMINISTRAR PEDIDOS</h2>
           <p> Visualizá los pedidos pendientes que tenés, preparalos y despachalos!.</p>
-      </div><!-- /.col-lg-4 -->
-    </div><!-- /.row -->
-  </div><!-- Proceso -->
-  <hr>
+      </div>
+    </div>
+  </div>
+  <!-- Caracteristicas -->
+</section>
 
-  <div class="container w">
+<section id="demos" class="bg-white block mt-5">
+  <div class="container">
     <div class="row text-center">
-      <h1> DEMOS</h1>
-      <p> Probá nuestros ejemples siguiendo los links de las imagenes. Usa los siguientes 
-        usuarios para ingresar:</p>
-      <p> Usuario: <b> admin-ejemplo@ingeros.com </b> Contraseña: <b> pass </b> </p>
+      <div class="col-12">
+        <h3> DEMOS</h3>
+        <p> Probá nuestros ejemples siguiendo los links de las imagenes. Usa los siguientes
+          usuarios para ingresar:</p>
+        <p> Usuario: <b> admin-ejemplo@ingeros.com </b> Contraseña: <b> pass </b> </p>
+      </div>
+      
       <div class="col-md-4">
         <div style="margin: 10px;">
           <h4>Verduleria</h4>
           <a href="https://verduleria.ingeros.com/store/" title="Demo verduleria">
-            <img class="img-fluid center-block" style="max-height: 300px;"
-            src="{{ site.url }}/assets/images/pedidos/verduleria.png"></img>
+            {% picture assets/images/pedidos/verduleria.png
+              --alt Aplicacion de pedidos para verduleria
+              --title Aplicacion de pedidos para verduleria
+              --img class="img-fluid center-block" style="max-height: 300px;"
+              
+            %}
           </a>
         </div>
         <div style="margin: 10px;">
@@ -151,8 +166,12 @@ msg-foot:
         <div style="margin: 10px;">
           <h4>Carnicería</h4>
           <a href="https://carniceria.ingeros.com/store/" title="Demo carniceria">
-            <img class="img-fluid center-block" style="max-height: 300px;"
-            src="{{ site.url }}/assets/images/pedidos/carniceria.png"></img>
+            {% picture assets/images/pedidos/carniceria.png
+              --alt Aplicacion de pedidos para carniceria
+              --title Aplicacion de pedidos para carniceria
+              --img class="img-fluid center-block" style="max-height: 300px;"
+              
+            %}
           </a>
         </div>
         <div style="margin: 10px;">
@@ -163,8 +182,12 @@ msg-foot:
         <div style="margin: 10px;">
           <h4>Cervecería</h4>
           <a href="https://tienda.cervezahopfen.com/store/" title="Demo cerveceria">
-            <img class="img-fluid center-block" style="max-height: 300px;"
-            src="{{ site.url }}/assets/images/pedidos/phone.png"></img>
+            {% picture assets/images/pedidos/phone.png
+              --alt Aplicacion de pedidos para Cerveceria
+              --title Aplicacion de pedidos para Cerveceria
+              --img class="img-fluid center-block" style="max-height: 300px;"
+              
+            %}
           </a>
         </div>
         <div style="margin: 10px;">
@@ -173,18 +196,24 @@ msg-foot:
       </div>
     </div>
   </div>
-  <div class="container w">
+</section>
+
+<section id="confian" class="bg-grey block mt-5">
+  <div class="container ">
     <div class="row text-center">
       <h1> ELLOS CONFÍAN EN NOSOTROS</h1>     
-      <div class="col">
+      <div class="col-12">
         <div style="margin: 10px;">
           <a href="http://cervezahopfen.com" title="Tienda Hopfen">
-            <img class="img-fluid center-block" style="max-height: 300px;"
-            src="{{ site.url }}/assets/images/clientes-cervecerias/hopffen.jpeg"></img>
+            {% picture assets/images/clientes-cervecerias/hopffen.jpeg
+              --alt Cerveza Hopfen
+              --title Cerveza Hopfen
+              --img class="img-fluid center-block" style="max-height: 300px;"
+              
+            %}
           </a>
         </div>
       </div>
     </div>
   </div>
-
-</div>
+</section>

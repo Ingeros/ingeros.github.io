@@ -8,4 +8,5 @@ group :jekyll_plugins do
     gem 'jekyll_picture_tag'
     gem 'jekyll-seo-tag'
     gem 'jekyll-purgecss'
+    gem 'jekyll-redirect-from'
 end
