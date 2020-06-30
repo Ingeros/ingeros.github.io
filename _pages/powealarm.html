@@ -51,7 +51,11 @@ msg-foot:
     <div class="row text-center bg-grey pt-5">
 			<br><br>
       <div class="col-lg-6">
-        <img class="img-fluid" src="{{ site.url }}/assets/images/app-alarma-corte-luz-configurar.jpg">
+        {% picture assets/images/app-alarma-corte-luz-configurar.jpg
+          --alt Aplicacion corte de luz
+          --title App Avisador corte de luz
+          --img class="img-fluid"
+        %}
       </div><!-- col-lg-6 -->
       <div class="col-lg-6">
 				<h4>¿Qué puedo configurar?</h4>

@@ -6,8 +6,9 @@ sitemap:
 @import 'jekyll-theme-pancho';
 
 /* Colors */
-$black_ingeros: #050401;
+$black_ingeros: #222;
 $blue_ingeros: #33A1FD;
+$grey_ingeros: #ebebeb;
 
 /* header-viewport */
 #header-viewport > section {
@@ -22,43 +23,20 @@ $blue_ingeros: #33A1FD;
 	background: $blue_ingeros;
 	padding-top: 35px;
 	padding-bottom: 35px;
+	color: white;
 }
 
 .blue h4 {
-	color: white;
-	font-weight: 700;
-}
-
-.blue p {
-	color: white;
-}
-
-/* Dark Grey Wrap */
-.darkgrey {
-	background: #e0e0e0;
-	padding-top: 70px;
-	padding-bottom: 70px;
-	text-align: center;
-}
-
-.darkgrey h4 {
-	font-weight: 700;
-}
-
-/* Light Grey */
-.grey {
-	background: #ebebeb;
-	padding-top: 70px;
-	padding-bottom: 70px;
-	text-align: center;
-}
-
-.grey h4 {
 	font-weight: 700;
 }
 
 i {
 	color: $blue_ingeros;
 }
+.navbar {
+	background-color: $black_ingeros;
+}
 
-
+.bg-dark-ingeros {
+	background-color: $black_ingeros !important;
+}
