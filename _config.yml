@@ -1,7 +1,7 @@
 title: Ingeros # Your site's title
 tagline: Innovación tecnológica # A short description, used as part of the title
 description: Somos una empresa localizada en Rosario, enfocada en brindar soluciones basadas en el diseño y desarrollo de hardware y/o software, en áreas como electrónica, automatismo, domótica, adquisición de datos, sistemas de supervisión, automatización industrial, control de procesos. Garantizamos productos confiables desarrollados con tecnologías de hardware y software libre. 
-url: test-ariel.github.io # The full URL to your site.
+url: ingeros.com # The full URL to your site.
 author: arielsperduti
 
 logo: # URL to a site-wide logo, 
@@ -23,13 +23,16 @@ social: # For specifyng social profiles
     - https://github.com/ingeros
     - https://instagram.com/ingeros.arg
 
-webmaster_verifications: # Verify ownership with several services at
-  google: 1234
-  bing: 1234
-  alexa: 1234
-  yandex: 1234
-  baidu: 1234
+#webmaster_verifications: # Verify ownership with several services at
+  #google: 1234
+  #bing: 1234
+  #alexa: 1234
+  #yandex: 1234
+  #baidu: 1234
 
+analytics_verifications:
+  google: UA-1336963-14
+  
 lang:  es_AR # Locale tag follow the format language_TERRITORY
 
 #theme: jekyll-theme-pancho
