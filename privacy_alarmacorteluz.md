@@ -3,6 +3,8 @@ layout: page
 title: Politicas de Privacidad Alarma Corte de Luz
 permalink: /privacy_alarmacortedeluz/
 description: Politicas de Privacidad de Alarma Corte de Luz
+sitemap:
+ exclude: 'yes'
 ---
 
 # Política de privacidad

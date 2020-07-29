@@ -3,6 +3,8 @@ layout: page
 title: Politicas de Privacidad
 permalink: /privacy/
 description: Politicas de Privacidad de Ingeros, y servicios asociados
+sitemap:
+ exclude: 'yes'
 ---
 
 #Política de privacidad
